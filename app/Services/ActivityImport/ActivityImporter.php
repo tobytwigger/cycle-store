@@ -6,8 +6,6 @@ use App\Models\Activity;
 use App\Models\AdditionalData;
 use App\Models\File;
 use App\Models\User;
-use App\Services\File\FileUploader;
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Auth;
 
 class ActivityImporter
@@ -204,5 +202,4 @@ class ActivityImporter
 
         return $this;
     }
-
 }
